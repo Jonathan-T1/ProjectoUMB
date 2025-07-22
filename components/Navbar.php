@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/Navbar.css">
 </head>
+
 <body>
-    <nav class ="preheader">
+    <nav class="preheader">
         <div>
-            <ul>
-                <li><a href="#">Cuenta</a></li>
-                <li><a href="#">Tablero</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Calendario</a></li>
-                <li><a href="#">Bandeja de entrada</a></li>
-                <li><a href="#">Historial</a></li>
-                <li><a href="#">Ayuda</a></li>
+            <ul class="navbar-list">
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/user.png" alt="Cuenta">
+                        <span>Cuenta</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/classroom.png" alt="Cuenta">
+                        <span>Cursos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/dashboard.png" alt="Cuenta">
+                        <span>Tablero</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/calendar.png" alt="Cuenta">
+                        <span>Calendario</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/new-post.png" alt="Cuenta">
+                        <span>Bandeja</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/activity-history.png" alt="Cuenta">
+                        <span>Historial</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/help.png" alt="Cuenta">
+                        <span>Ayuda</span>
+                    </a>
+                </li>
             </ul>
         </div>
-    </nav> 
+    </nav>
 </body>
+
 </html>
